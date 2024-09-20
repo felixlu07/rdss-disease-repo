@@ -1,0 +1,52 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #832061;
+  --ifm-color-primary-dark: #761d57;
+  --ifm-color-primary-darker: #6f1b52;
+  --ifm-color-primary-darkest: #5c1744;
+  --ifm-color-primary-light: #90236b;
+  --ifm-color-primary-lighter: #972470;
+  --ifm-color-primary-lightest: #aa287e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(131, 32, 97, 0.1);
+  --ifm-font-family-base: 'Karla', sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.9;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff7ec9;
+  --ifm-color-primary-dark: #ff5bbc;
+  --ifm-color-primary-darker: #ff49b5;
+  --ifm-color-primary-darkest: #ff14a0;
+  --ifm-color-primary-light: #ffa1d6;
+  --ifm-color-primary-lighter: #ffb3dd;
+  --ifm-color-primary-lightest: #ffe8f2;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 126, 201, 0.3);
+}
+
+body {
+  font-family: var(--ifm-font-family-base);
+  font-weight: 400;
+  font-size: var(--ifm-font-size-base);
+  line-height: var(--ifm-line-height-base);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--ifm-color-primary);
+}
+
+a:hover {
+  color: var(--ifm-color-primary-darker);
+}
